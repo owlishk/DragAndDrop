@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">	
+
+    <title>shapes</title>  
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+ 
+<!-- The idea with this webpage was to have a bunch of shapes with different rgba values and z-indices. When moved around on top of each other it should form new colors with the blend. Never did achieve the movement to test it. -->
+ 
+ 
+  <body>
+    <header>
+     <h1>Playing with shapes</h1>
+    </header>
+   
+   <div>
+    <div id="square" class="square shape">
+    </div>
+
+    <div id="circle" class="circle shape">
+    </div>
+    
+    <div id="rectangle" class="rectangle shape">
+    </div>
+    
+    <div id="triangle" class="triangle shape">
+    </div>
+    
+    <div id="oval" class="oval shape">
+    </div>
+    
+<!--    static divs for playing with color overlap-->
+    <div id="black-dot">
+    </div>
+    
+    <div id="white-dot">
+    </div>
+     
+   </div>
+
+   
+<!--   jquery scripts-->
+    <script   src="https://code.jquery.com/jquery-1.12.3.js"   integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="   crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="js.js" type="text/javascript"></script>
+  </body>
+</html>
